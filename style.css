@@ -1,0 +1,270 @@
+@font-face {
+    font-family: Optima;
+    src: url(/fonts/Optima.ttc)
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.h1-container {
+    padding: 60px 0 75px 0;
+}
+
+h1 {
+    font-family: "Optima", serif;
+    text-align: center;
+    word-spacing: 0px;
+    line-height: 95px;
+    font-weight: bold;
+}
+
+.h1-2 {
+    animation: h1-2 3s 1;
+    font-size: 30pt;
+
+}
+
+@keyframes h1-2 {
+    0%{
+        opacity: 0;
+        letter-spacing: 80px;
+    }
+    30%{
+        opacity: 0;
+        letter-spacing: 25px;
+    }
+    80%{
+        letter-spacing: 8px;
+    }
+}
+
+.h1-1 {
+    animation: h1-1 3s 1;
+    position: relative;
+    font-size: 85pt;
+    display: inline;
+}
+
+@keyframes h1-1 {
+    0%{
+        opacity: 0;
+        letter-spacing: 80px;
+        top: 95px;
+    }
+    30%{
+        opacity: 0;
+        letter-spacing: 25px;
+        top: 95px;
+    }
+    80%{
+        letter-spacing: 8px;
+        top: 0px;
+    }
+}
+
+.h1-3 {
+    animation: h1-3 3s 1;
+    position: relative;
+    font-size: 85pt;
+}
+
+@keyframes h1-3 {
+    0%{
+        opacity: 0;
+        letter-spacing: 80px;
+        top: -95px;
+    }
+    30%{
+        opacity: 0;
+        letter-spacing: 25px;
+        top: -95px;
+    }
+    80%{
+        letter-spacing: 8px;
+        top: 0px;
+    }
+}
+
+header {
+    height:80px;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    color: black;
+    margin: 0 8vw;
+    font-family: "Optima", sans-serif;
+    font-size: 11pt;
+    vertical-align: middle;
+}
+
+.homepage {
+    background-color: white;
+    border: 2px black dotted;
+    padding: 13px;
+}
+
+.about,
+.references {
+    background-color: white;
+    border: none;
+    padding: 15px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.dropdown button {
+    background-color: white;
+    border: none;
+    padding: 15px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.dropdown button:hover,
+.dropdown button:focus,
+.about:hover,
+.references:hover {
+    border: 2px black dotted;
+    padding: 13px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 226px;
+    z-index: 1;
+    text-align: left;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    border: 2px black dotted;
+    padding: 10px 14px;
+}
+
+.show {display:block;}
+
+.container {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4vw 0 0 0;
+}
+
+.card {
+    position: relative;
+    max-width: 320px;
+    height: 240px;
+    background-color: white;
+    margin: 65px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    height: 335px;
+}
+
+.img {
+    position: relative;
+    width: 320px;
+    height: 240px;
+    border-radius: 10px;
+    overflow: hidden;
+    top: -60px;
+    left: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img img {
+    width: 100%;
+}
+
+.text {
+    position: relative;
+    top: -30px;
+    margin: 0 30px 30px 30px;
+    padding: 0px 0;
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.text p {
+    font-family: "Optima", serif;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 13px;
+    color: black;
+}
+
+sup {
+    font-size: 8pt;
+}
+
+h2 {
+    font-family: "Optima", serif;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: dotted 1px rgba(0, 0, 0, 0.7);
+}
+
+table {
+    width: 260px;
+}
+
+th:nth-child(1) {
+    text-align: left;
+}
+
+th:nth-child(2) {
+    text-align: right;
+}
+
+h3 {
+    font-size: 8pt;
+    font-family: "Optima", serif;
+}
+
+.th:nth-child(2) {
+    text-align: right;
+}
+
+.card:hover .text {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
+    transition-delay: 0.2s;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 50pt;
+    }
+}
