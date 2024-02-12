@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Almond Butterfly;
+    src: url(/fonts/AlmondButtery-Italic.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Almond Butterfly";
+    background-color: lightblue;
+    font-size: 10pt;
+    color: slategray;
+    line-height: 16pt;
+}
+
+.snow, .snow::before, .snow::after {
+    content: "";
+    background: radial-gradient(3px 3px at 150px 50px, white, transparent),
+    radial-gradient(4px 4px at 540px 230px, white, transparent),
+    radial-gradient(5px 5px at 230px 650px, white, transparent),
+    radial-gradient(6px 6px at 650px 380px, white, transparent),
+    radial-gradient(5px 5px at 230px 90px, white, transparent),
+    radial-gradient(3px 3px at 680px 880px, white, transparent),
+    radial-gradient(4px 4px at 990px 780px, white, transparent),
+    radial-gradient(5px 5px at 720px 650px, white, transparent),
+    radial-gradient(6px 6px at 520px 880px, white, transparent),
+    radial-gradient(5px 5px at 430px 90px, white, transparent),
+    radial-gradient(5px 5px at 50px 950px, white, transparent);
+    position: absolute;
+    inset: -2000px 0 0 0;
+    background-size: 1000px 1000px;
+    animation: animate 16s linear infinite;
+}
+
+.snow::before {
+    margin: -390px;
+    opacity: 0.6;
+    animation-duration: 18s;
+    animation-delay: -1.5s;
+}
+
+.snow::after {
+    margin: -130px;
+    opacity: 0.8;
+    animation-duration: 20s;
+    animation-delay: -1.5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(2000px);
+    }
+}
+
+h1 {
+    font-size: 55pt;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3 {
+    font-size: 25pt;
+}
+
+h5 {
+    font-size: 14pt;
+}
+
+.info {
+    text-align: center;
+    margin: 0 0 65px 0;
+}
+
+.textbox {
+    margin: 20px 12vw 60px 12vw;
+    background-color: rgb(240, 248, 255, 0.5);
+    background-color: lav;
+    padding: 2vw 3vw 3vw 3vw;
+    border-radius: 50px 0 50px 0;
+    border-top: 5px dashed aliceblue;
+    border-bottom: 5px dashed aliceblue;
+}
+
+table {
+    border-collapse: collapse;
+    line-height: 20pt;
+    vertical-align: middle;
+    border-top: 1px solid slategray;
+}
+
+tr {
+    border-bottom: 1px solid slategray;
+}
+
+td:first-child {
+    width: 30vw;
+}
+
+td:nth-child(2), td:nth-child(3) {
+    width: 20vw;
+}
+
+button {
+    background-color: aliceblue;
+    border-radius: 80%;
+    padding: 15px;
+    margin-right: 4.4vw;
+    display: inline-block;
+}
+
+a {
+    font-family: "Almond Butterfly";
+    font-size: 10pt;
+    color: slategray;
+}
+
+.textbox a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue; 
+}
+button:hover {
+    background-color: white;
+}
