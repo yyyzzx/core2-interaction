@@ -29,6 +29,7 @@ body {
     background-size: 1000px 1000px;
     animation: animate 16s linear infinite;
     user-select: none;
+    z-index: -1;
 }
 
 .snow::before {
@@ -131,8 +132,13 @@ a {
 }
 
 a:hover {
-    color: lightblue; 
+    color: white; 
 }
+
+button a:hover {
+    color: lightblue;
+}
+
 button:hover {
     background-color: white;
 }
