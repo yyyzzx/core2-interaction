@@ -92,6 +92,12 @@ ul li::before {
     content: "\2731";
 }
 
+ol li {
+    list-style: initial;
+    margin: initial;
+    list-style-type: decimal;
+    margin-left: 2vw;
+}
 
 table {
     border-collapse: collapse;
@@ -132,7 +138,7 @@ a {
 }
 
 a:hover {
-    color: white; 
+    color: #cfe8f3; 
 }
 
 button a:hover {
