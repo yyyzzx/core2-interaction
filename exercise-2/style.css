@@ -5,9 +5,9 @@
 
 body {
     font-family: "Almond Butterfly", "Lobster", sans-serif;
-    background-color: lightblue;
+    background-color: #1c0200;
     font-size: 10pt;
-    color: slategray;
+    color: #b14243;
     line-height: 16pt;
 }
 
@@ -64,7 +64,10 @@ h1 {
 
 h3 {
     font-size: 25pt;
-    line-height: 55pt;
+    line-height: 30pt;
+    border-bottom: 2px #b14243 solid;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 h5 {
@@ -78,13 +81,13 @@ h5 {
 }
 
 .textbox {
-    margin: 20px 12vw 60px 12vw;
-    background-color: rgb(240, 248, 255, 0.5);
+    margin: 20px 12vw 80px 12vw;
+    background-color: rgb(72, 20, 18, 0.7);
     background-color: lav;
     padding: 2vw 3vw 3vw 3vw;
     border-radius: 50px 0 50px 0;
-    border-top: 5px dashed aliceblue;
-    border-bottom: 5px dashed aliceblue;
+    border-top: 5px dashed antiquewhite;
+    border-bottom: 5px dashed antiquewhite;
     font-family: "Almond Butterfly", "Lobster", sans-serif;
 }
 
@@ -96,18 +99,18 @@ ol li {
     list-style: initial;
     margin: initial;
     list-style-type: decimal;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 
 table {
     border-collapse: collapse;
     line-height: 20pt;
     vertical-align: middle;
-    border-top: 1px solid slategray;
+    border-top: 2px solid #4a1410;
 }
 
 tr {
-    border-bottom: 1px solid slategray;
+    border-bottom: 2px solid #4a1410;
 }
 
 td:first-child {
@@ -119,17 +122,18 @@ td:nth-child(2), td:nth-child(3) {
 }
 
 button {
-    background-color: aliceblue;
-    border-radius: 80%;
+    background-color: antiquewhite;
+    border-radius: 70%;
     padding: 15px;
     margin-right: 4.4vw;
     display: inline-block;
+    box-shadow: 5px 5px #b14243;
 }
 
 a {
     font-family: "Almond Butterfly";
     font-size: 10pt;
-    color: slategray;
+    color: #b14243;
     text-decoration: underline;
 }
 
@@ -138,13 +142,9 @@ a {
 }
 
 a:hover {
-    color: #cfe8f3; 
+    color: antiquewhite; 
 }
 
 button a:hover {
-    color: lightblue;
-}
-
-button:hover {
-    background-color: white;
+    color: #4a1410;
 }
