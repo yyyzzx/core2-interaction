@@ -1,12 +1,12 @@
 @font-face {
     font-family: Almond Butterfly;
-    src: url(/fonts/AlmondButtery-Italic.otf);
+    src: url(fonts/AlmondButtery-Italic.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "Almond Butterfly";
+    font-family: "Almond Butterfly", sans-serif;
     background-color: lightblue;
     font-size: 10pt;
     color: slategray;
@@ -57,16 +57,19 @@ body {
 
 h1 {
     font-size: 55pt;
+    line-height: 70pt;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 h3 {
     font-size: 25pt;
+    line-height: 55pt;
 }
 
 h5 {
     font-size: 14pt;
+    line-height: 35pt;
 }
 
 .info {
@@ -83,6 +86,11 @@ h5 {
     border-top: 5px dashed aliceblue;
     border-bottom: 5px dashed aliceblue;
 }
+
+ul li::before {
+    content: "\2731";
+}
+
 
 table {
     border-collapse: collapse;
@@ -115,6 +123,7 @@ a {
     font-family: "Almond Butterfly";
     font-size: 10pt;
     color: slategray;
+    text-decoration: underline;
 }
 
 .textbox a {
