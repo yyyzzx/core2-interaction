@@ -26,16 +26,16 @@ body {
 
 /* Each "pixel" */
 .cell {
-  width: calc(40vw/39);
-  height: calc(40vw/39);
-  background-color: white;
+    width: calc(40vw/39);
+    height: calc(40vw/39);
+    background-color: white;
     opacity: 0;
 }
 
 .fill {
     background-color: #5d826d;
     opacity: 1;
-    box-shadow: calc(50vw/39) calc(50vw/39) white;
+    box-shadow: 1vw 1vw white;
 }
 
 #container .fill:hover {
@@ -44,4 +44,15 @@ body {
     right: 5px;
     position: relative;
     box-shadow: none;
+}
+
+@media only screen and (max-width: 420px) {
+    #container {
+        width: 350px;
+    }
+
+    .cell {
+        width: calc(350px/39);
+        height: calc(350px/39);
+    }
 }
