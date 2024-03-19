@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Repro-bold;
+    src: url(./fonts/ABCRepro-Bold-Trial.otf);
+}
+
+@font-face {
+    font-family: Repro-regular;
+    src: url(./fonts/ABCRepro-Regular-Trial.otf);
+}
+
+@font-face {
+    font-family: Perfectly Vintages;
+    src: url(./fonts/Perfectly\ Vintages\ Font\ by\ Keithzo.otf);
+}
+
+html { 
+    font-size: 20pt;
+}
+
+body {
+    background-color: #1e1d23;
+    color: #decdb2;
+}
+
+.content {
+    margin: 0 0vw;
+    max-width: fit-content;
+    margin: 8vh auto 0 12vw;
+}
+
+h1 {
+    font-family: "Perfectly Vintages";
+    font-size: 5em;
+    line-height: 0.85em;
+    margin-bottom: 7vh;
+    position: relative;
+    left: -0.08em;
+    color: #d32c3b;
+}
+
+p {
+    font-family: "Repro-regular";
+    font-size: 1em;
+    line-height: 35pt;
+    font-feature-settings: "ss15";
+
+}
+
+span {
+    font-feature-settings: normal;
+    font-family: "Perfectly Vintages";
+    transition: 0.8s;
+    color: #d32c3b;
+    font-size: 1.3em;
+
+}
+
+.indent {
+    margin-left: 3vw;
+}
+
+.end {
+    margin: calc(7vh - 10pt) 0 8vh 0;
+    font-family: "Repro-regular";
+    font-size: 1em;
+    line-height: 35pt;
+
+}
+
+.end span {
+    font-family: "Repro-regular";
+    font-feature-settings: "ss16";
+    font-size: 1em;
+    transition: none;
+    font-variant-ligatures: none;
+    padding: 0 0.2em;
+    transition: 0.5s;
+    color: #decdb2;
+}
+
+.end span:hover {
+    background-color: #d32c3b;
+    color: white;
+    border-radius: 0.6em;
+    margin: 0 0.2em;
+    transition: 0.8s;
+    color: #1e1d23;
+}
