@@ -27,3 +27,7 @@ let A2 = ["deep", "bold", "brilliant", "dazzling", "bloody"];
 let randomA2 = Math.floor(Math.random() * A2.length);
 let adj2 = document.getElementById("adj2");
 adj2.innerHTML = A2[randomA2];
+
+let randomA3 = Math.floor(Math.random() * A2.length);
+let adj3 = document.getElementById("adj3");
+adj3.innerHTML = A2[randomA2];
