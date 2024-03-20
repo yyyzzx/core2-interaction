@@ -52,7 +52,6 @@ span {
     transition: 0.8s;
     color: #d32c3b;
     font-size: 1.3em;
-
 }
 
 .indent {
@@ -97,7 +96,11 @@ span {
     }
 
     .content {
-        margin: 8vh auto 0 10vw;
+        margin: 8vh 1vw 0 10vw;
+    }
+
+    span {
+        font-size: 1.15em;
     }
 }
 
