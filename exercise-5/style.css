@@ -18,10 +18,8 @@ body {
 .box, .box-empty {
     width: 12vw;
     height: 12vw;
-    background-color: #2e617e;
-    border: 10px #45839f dashed;
     border-radius: 100%;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 .box-empty {
