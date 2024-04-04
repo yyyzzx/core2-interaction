@@ -1,0 +1,23 @@
+body {
+    background-color: floralwhite;
+}
+
+.container {
+    position: fixed;
+    height: 50vw;
+    width: 50vw;
+    top: calc((100vh - 50vw) / 2);
+    left: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.box, .box1 {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: blue;
+    transition: 0.7s;
+}
