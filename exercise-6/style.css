@@ -18,7 +18,6 @@ body {
 .box, .box1 {
     width: 2.5vw;
     height: 2.5vw;
-    background-color: blue;
     transition: 0.7s;
 }
 
