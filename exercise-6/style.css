@@ -21,3 +21,17 @@ body {
     background-color: blue;
     transition: 0.7s;
 }
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        height: 40vw;
+        width: 40vw;
+        top: calc((100vh - 40vw) / 2);
+        left: 30vw;
+    }
+
+    .box, .box1 {
+        width: 2vw;
+        height: 2vw;
+    }
+}
