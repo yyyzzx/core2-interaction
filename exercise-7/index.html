@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/reset.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <p>ABC Gravity is a one weight, 12 width headline typeface. Its many stylistic alternates allow for playful settings and super-compact title arrangements. Its initial skeleton was inspired by heavy grotesque typefaces from the ’60s and ’70s, which we worked to compress and stretch out into extreme widths. As a special addition to the font, we implemented features that allow you to arrange and modify the position of characters. You can make them jump over the baseline or hang from the top.</p>
+        </div>
+        <div class="var-text">
+            <div id="textDisplay">Gravity</div>
+        </div>
+        <div class="type">
+            <input type="text" id="specimen" placeholder="Type here" oninput="changeText()">
+        </div>
+        <div class="pannel">
+            <div class="pannel-left">
+                <p id="sizeValue">Font size: 200pt</p>
+                <input type="range" id="size" min="20" max="300" value="200" oninput="changeSize()">
+                <br><br>
+                <p id="widthValue">Width: 50%</p>
+                <input type="range" id="width" min="50" max="150" value="50" oninput="changeWidth()">
+            </div>
+            <div class="pannel-right">
+                <div class="buttons">
+                    <input type="button" id="italic" value="Switch to italics" onclick="italic()">
+                    <input type="button" id="aalt" value="Access all alternatives" onclick="alternative()">
+                    <input type="button" id="decenders" value="Raise decenders" onclick="decenders()">
+                    <input type="button" id="lower" value="Raise lowercases" onclick="lowercases()">
+                    <input type="button" id="short" value="Short decenders" onclick="short()">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
