@@ -4,7 +4,7 @@ let textDisplay = document.getElementById("textDisplay");
 let textInput = document.getElementById("specimen");
 function changeText() {
     textDisplay.innerHTML = textInput.value;
-    textInput.style.color = "var(--grey)";
+    textInput:hover.style.color = "var(--grey)";
 }
 
 //change width
