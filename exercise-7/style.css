@@ -1,11 +1,11 @@
 @font-face {
     font-family: Gravity Upright;
-    src: url(/fonts/ABCGravityUprightVariable-Trial.ttf) format("truetype-variations");
+    src: url(./fonts/ABCGravityUprightVariable-Trial.ttf) format("truetype-variations");
 }
 
 @font-face {
     font-family: Gravity Italic;
-    src: url(/fonts/ABCGravityItalicVariable-Trial.ttf) format("truetype-variations");
+    src: url(./fonts/ABCGravityItalicVariable-Trial.ttf) format("truetype-variations");
 }
 
 :root {
