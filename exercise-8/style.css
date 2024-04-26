@@ -3,6 +3,10 @@
     src: url(./fonts/CalyxTrial-Regular.otf);
 }
 
+body {
+    background-color: honeydew;
+}
+
 .container {
     height: 100vh;
     width: 100vw;
@@ -16,5 +20,17 @@
     font-family: "Calyx";
     font-size: 500pt;
     position: relative;
-    top: -180pt;
+    top: -150pt;
+    right: 50px;
+    transition: 1s liner;
+    color: #43d377;
+    transform: skew(18deg, 8deg);
+}
+
+span {
+    line-height: 50px;
+}
+
+.dot {
+    color: #ff8578;
 }
