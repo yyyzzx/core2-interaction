@@ -12,10 +12,16 @@
         <div class="h1-1"><span><h1>CORE2:<br>INTERACTION</h1></span></div> <div class="h1-2"><h1>CLASS HOMEPAGE</h1</div> <div class="h1-3"><h1>JIAJIN YE</h1></div>
     </div>
 
+<div class="buttons">
+    <input type="button" id="all" value="All" onclick="showAll()">
+    <input type="button" id="projects" value="Studio Projects" onclick="showProjects()">
+    <input type="button" id="exercises" value="Lab Exercises" onclick="showExercises()">
+</div>
+
     <div class="entries">
     <div class="container">
         <!--EXERCISE 1A-->
-        <div class="card">
+        <div class="card" id="exercise-1a">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-1a/">
                     <img src="images/exercise-1a.jpg" alt="a screenshot from exercise-1a">
@@ -34,7 +40,7 @@
         </div>
 
         <!--EXERCISE 1B-->
-        <div class="card">
+        <div class="card" id="exercise-1b">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-1b/">
                     <img src="images/exercise-1b.jpg" alt="HTML as Design">
@@ -53,7 +59,7 @@
         </div>
 
         <!--EXERCISE 2-->
-        <div class="card">
+        <div class="card" id="exercise-2">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-2/">
                     <img src="images/exercise-2.jpg" alt="css recipe">
@@ -71,8 +77,8 @@
             </div>
         </div>
 
-            <!--PROJECT 1-->
-        <div class="card">
+        <!--PROJECT 1-->
+        <div class="card" id="project-1">
             <div class="img">
                 <a href="https://yyyzzx.github.io/on-punctuation/">
                     <img src="images/project-1.gif" alt="Covers from project 1">
@@ -91,7 +97,7 @@
         </div>
 
         <!--EXERCISE 3-->
-        <div class="card">
+        <div class="card" id="exercise-3">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-3/">
                     <img src="images/exercise-3.jpg" alt="Flexbox World">
@@ -110,7 +116,7 @@
         </div>
 
         <!--EXERCISE 4-->
-        <div class="card">
+        <div class="card" id="exercise-4">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-4/">
                     <img src="images/exercise-4.gif" alt="Random Poem Generator">
@@ -129,7 +135,7 @@
         </div>
 
         <!--EXERCISE 5-->
-        <div class="card">
+        <div class="card" id="exercise-5">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-5/">
                     <img src="images/exercise-5.gif" alt="project image">
@@ -148,7 +154,7 @@
         </div>
 
         <!--PROJECT 2-->
-        <div class="card">
+        <div class="card" id="project-2">
             <div class="img">
                 <a href="https://yyyzzx.github.io/i-was-there/">
                     <img src="images/project-2.gif" alt="project image">
@@ -167,7 +173,7 @@
         </div>
 
         <!--EXERCISE 6-->
-        <div class="card">
+        <div class="card" id="exercise-6">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-6/">
                     <img src="images/exercise-6.gif" alt="project image">
@@ -186,7 +192,7 @@
         </div>
 
         <!--EXERCISE 7-->
-        <div class="card">
+        <div class="card" id="exercise-7">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-7/">
                     <img src="images/exercise-7.jpg" alt="project image">
@@ -205,7 +211,7 @@
         </div>
 
         <!--EXERCISE 8-->
-        <div class="card">
+        <div class="card" id="exercise-8">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-8/">
                     <img src="images/exercise-8.jpg" alt="project image">
@@ -224,9 +230,9 @@
         </div>
 
         <!--PROJECT 3-->
-        <div class="card">
+        <div class="card" id="project-3">
             <div class="img">
-                <a href="#">
+                <a href="https://yyyzzx.github.io/water-clock/">
                     <img src="images/project-3.jpg" alt="project image">
                 </a>
             </div>
@@ -238,12 +244,12 @@
                     </tr>
                 </table>
                 <h2>Water Clock</h2>
-                <p>Description.</p>
+                <p>An abstract clock that aims to visualize time and the relationship between time and water consumption.</p>
             </div>
         </div>
 
         <!--EXERCISE 9-->
-        <div class="card">
+        <div class="card" id="exercise-9">
             <div class="img">
                 <a href="https://yyyzzx.github.io/core2-interaction/exercise-9/">
                     <img src="images/exercise-9.jpg" alt="project image">
@@ -281,5 +287,6 @@
         </div>
         -->
     </div>
+<script src="script.js"></script>
 </body>
 </html>

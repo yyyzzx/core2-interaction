@@ -134,12 +134,12 @@ header li {
     padding: 13px;
 }
 
-.dropdown {
+/* .dropdown {
     position: relative;
     display: inline-block;
-}
+} */
 
-.dropdown-content {
+/* .dropdown-content {
     display: none;
     position: absolute;
     background-color: whitesmoke;
@@ -161,7 +161,7 @@ header li {
     padding: 10px 14px;
 }
 
-.show {display:block;}
+.show {display:block;} */
 
 .container {
     margin-top: 30px;
@@ -182,6 +182,7 @@ header li {
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     transition: 0.5s ease-in-out;
+    display: block;
 }
 
 .card:hover {
@@ -267,4 +268,36 @@ h3 {
     h1 {
         font-size: 50pt;
     }
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 16px 0;
+    margin-top: 5vw;
+}
+
+#projects, #all {
+    margin-right: 12px;
+}
+
+input[type=button] {
+    font-family: "Optima", serif;
+    font-size: 17pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    padding: 12px 28px;
+    margin: 4px 2px;
+    border-radius: 30px;
+    border: 2px black solid;
+    transition: 0.8s;
+}
+
+input[type=button]:hover, #all {
+    background-color: black;
+    color: white;
+    transition: 0.8s;
 }
